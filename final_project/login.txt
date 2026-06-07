@@ -1,0 +1,5 @@
+theia@theia-thevinur:/home/project$ curl -X POST http://localhost:5000/customer/login \
+  -c cookies.txt \
+  -H "Content-Type: application/json" \
+  -d '{"username": "testuser", "password": "password123"}'
+User successfully logged in
